@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
+h1 {
+  font-family: "Work Sans", sans-serif;
+  color: rgb(252, 125, 70);
+  text-transform: uppercase;
+  font-size: 65px;
+  font-style: italic;
+  font-weight: 100;
+  margin: 0;
+  line-height: 35px;
+  padding-bottom: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: "Work Sans", sans-serif;
+  color: #000;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-size: 12px;
+  color: rgb(187, 79, 32);
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+h4 {
+  font-size: 24px;
+  color: rgb(187, 79, 32);
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+}
+
+footer {
+  padding-top: 15px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
+
+div.page-container {
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #ffffff;
+  display: inline-block;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 700px;
 }
 
-.App-link {
-  color: #61dafb;
+div.container {
+  padding-top: 10px;
+  padding-bottom: 0;
+  overflow-y: scroll;
+  height: 300px;
+  width: 500px;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+p.p-project {
+  font-size: 14px;
+  padding-top: 0;
+  font-style: italic;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  width: 450px;
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 10px;
+  padding-bottom: 25px;
+  margin: auto;
+}
+
+a.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(187, 79, 32);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
+
+.active {
+  font-weight: 400;
+  color: red;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+  transition: all 0.5s ease-in-out;
+  color: rgb(153, 52, 8);
+}
+
+a.project-link {
+  text-transform: uppercase;
+  color: rgb(187, 79, 32);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+a.project-link:hover {
+  text-decoration: underline;
+  transition: all 0.5s ease-in-out;
+  color: rgb(153, 52, 8);
+}
+
+.img {
+  padding: 5px;
+}
+
+.button {
+  padding: 10px;
+  background-color: rgb(252, 125, 70);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 0px 4px #000;
+  color: #fff;
+  margin: 5px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+.button:hover {
+  background-color: rgb(105, 39, 11);
+}
+
+form {
+  font-family: "Work Sans", sans-serif;
+}
+
+.contact-form {
+  margin: 5px;
+  padding: 5px;
+  width: 350px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  color: rgb(252, 125, 70);
+}
+
+.icon {
+  color: rgb(105, 39, 11);
+  font-size: 32px;
+  padding: 5px;
+}
+
+.icon:hover {
+  color: rgb(187, 79, 32);
+}
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
 }
