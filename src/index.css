@@ -1,4 +1,5 @@
 body {
+  display: flex;
   text-align: center;
   font-family: "Work Sans", sans-serif;
   background: rgb(252, 125, 70);
@@ -8,6 +9,8 @@ body {
     rgba(251, 230, 221, 1) 86%
   );
   background-size: cover;
+  margin: 0;
+  justify-content: center;
 }
 
 code {

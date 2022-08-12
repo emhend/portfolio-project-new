@@ -45,22 +45,22 @@ footer {
 }
 
 div.page-container {
-  margin-top: 100px;
+  margin-top: 30px;
   padding-top: 30px;
   padding-left: 100px;
   padding-right: 100px;
   background-color: #ffffff;
   display: inline-block;
   align-items: center;
-  max-width: 700px;
+  max-width: 900px;
 }
 
 div.container {
   padding-top: 10px;
   padding-bottom: 0;
   overflow-y: scroll;
-  height: 300px;
-  width: 500px;
+  height: 450px;
+  max-width: 700px;
   margin: 0;
 }
 
