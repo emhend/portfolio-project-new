@@ -29,60 +29,60 @@ function Form() {
     e.target.reset();
   };
   return (
-    <div className="form">
-      <form onSubmit={onSubmit}>
-        <input
-          type="text"
-          id="name"
-          name="from_name"
-          className="contact-form"
-          value={toSend.from_name}
-          onChange={handleChange}
-          placeholder="Name"
-          required
-        />
-        <br />
-        <input
-          type="text"
-          id="company"
-          name="company"
-          className="contact-form"
-          value={toSend.from_company}
-          onChange={handleChange}
-          placeholder="Company"
-        />
-        <br />
-        <input
-          type="text"
-          id="email"
-          name="email"
-          className="contact-form"
-          value={toSend.email}
-          onChange={handleChange}
-          placeholder="Email"
-          required
-        />
-        <br />
-        <textarea
-          rows="5"
-          cols="50"
-          name="message"
-          className="contact-form"
-          value={toSend.message}
-          onChange={handleChange}
-          placeholder="Leave me a note..."
-          required
-        />
-        <br />
-        <motion.input
-          type="Submit"
-          id="submit"
-          value="submit"
-          className="button"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-        />
-      </form>
+    <div>
+      <div className="page-container">
+        <form onSubmit={onSubmit}>
+          <input
+            type="text"
+            id="name"
+            name="from_name"
+            className="contact-form"
+            value={toSend.from_name}
+            onChange={handleChange}
+            placeholder="Name"
+            required
+          />
+          <br />
+          <input
+            type="text"
+            id="company"
+            name="company"
+            className="contact-form"
+            value={toSend.from_company}
+            onChange={handleChange}
+            placeholder="Company"
+          />
+          <br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            className="contact-form"
+            value={toSend.email}
+            onChange={handleChange}
+            placeholder="Email"
+            required
+          />
+          <br />
+          <textarea
+            rows="5"
+            cols="50"
+            name="message"
+            className="contact-form"
+            value={toSend.message}
+            onChange={handleChange}
+            placeholder="Leave me a note..."
+            required
+          />
+          <br />
+          <motion.input
+            type="Submit"
+            id="submit"
+            value="submit"
+            className="button"
+          />
+        </form>
+      </div>
     </div>
   );
 }

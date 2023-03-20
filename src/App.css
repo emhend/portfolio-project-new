@@ -1,28 +1,27 @@
 h1 {
-  font-family: "Work Sans", sans-serif;
-  color: rgb(252, 125, 70);
+  font-family: "Digital tech", "Press Start 2P", sans-serif;
+  color: rgb(184, 172, 118);
   text-transform: uppercase;
-  font-size: 65px;
-  font-style: italic;
+  font-size: 38px;
   font-weight: 100;
-  margin: 0;
-  line-height: 35px;
-  padding-bottom: 10px;
+  margin-bottom: -4px;
+  margin-left: 5px;
+  margin-top: 80px;
 }
 
 h2 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
   color: #000;
-  font-size: 34px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 100;
   margin: 0;
 }
 
 h3 {
-  font-size: 12px;
-  color: rgb(187, 79, 32);
-  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  color: #679b9b;
+  font-family: "Digital tech", "Press Start 2P", sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   margin: 0;
@@ -30,8 +29,8 @@ h3 {
 
 h4 {
   font-size: 24px;
-  color: rgb(187, 79, 32);
-  font-family: "Work Sans", sans-serif;
+  color: #679b9b;
+  font-family: "Digital tech", "Press Start 2P", sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   margin: 0;
@@ -45,78 +44,81 @@ footer {
 }
 
 div.page-container {
-  margin-top: 30px;
-  padding-top: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
-  background-color: #ffffff;
-  display: inline-block;
-  align-items: center;
-  max-width: 900px;
-}
-
-div.container {
-  padding-top: 10px;
-  padding-bottom: 0;
-  overflow-y: scroll;
-  height: 450px;
-  max-width: 700px;
-  margin: 0;
+  max-width: 1080px;
+  height: fit-content;
 }
 
 p {
-  font-size: 12px;
+  font-size: 10px;
   padding-top: 5px;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  justify-content: center;
+}
+
+p.text-about-1 {
+  font-size: 12px;
+  width: 300px;
+  align-content: right;
+  position: absolute;
+  top: 170px;
+  left: 550px;
+}
+
+p.text-about-2 {
+  font-size: 12px;
+  width: 300px;
+  position: absolute;
+  top: 360px;
+  left: 850px;
+}
+
+p.text-about-3 {
+  font-size: 12px;
+  width: 200px;
+  align-content: right;
+  top: 600px;
+  left: 600px;
+  position: absolute;
 }
 
 p.p-project {
   font-size: 14px;
+  font-family: "Roboto Mono", monospace;
   padding-top: 0;
   font-style: italic;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  width: 450px;
-  border: 0;
-  border-top: 1px solid #000;
-  margin: 10px;
-  padding-bottom: 25px;
-  margin: auto;
 }
 
 a.nav-link {
   text-decoration: none;
   text-transform: uppercase;
-  color: rgb(187, 79, 32);
-  font-family: "Work Sans", sans-serif;
-  font-weight: 300;
-}
-
-.active {
-  font-weight: 400;
-  color: red;
+  color: #679b9b;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  border: 1px solid #679b9b;
+  border-radius: 10px;
+  align-content: center;
+  padding-left: 10px;
 }
 
 a.nav-link:hover {
-  text-decoration: underline;
-  transition: all 0.5s ease-in-out;
-  color: rgb(153, 52, 8);
+  text-decoration: none;
+  background-color: #679b9b;
+  color: #e7e7db;
 }
 
 a.project-link {
   text-transform: uppercase;
-  color: rgb(187, 79, 32);
-  font-family: "Work Sans", sans-serif;
-  font-weight: 300;
+  color: #679b9b;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
   text-decoration: none;
 }
 
 a.project-link:hover {
   text-decoration: underline;
   transition: all 0.5s ease-in-out;
-  color: rgb(153, 52, 8);
+  color: #679b9b;
 }
 
 .img {
@@ -125,32 +127,33 @@ a.project-link:hover {
 
 .button {
   padding: 10px;
-  background-color: rgb(252, 125, 70);
+  background-color: #679b9b;
   border-radius: 10px;
   border: none;
-  box-shadow: 1px 0px 4px #000;
+  box-shadow: none;
   color: #fff;
   margin: 5px;
   text-transform: uppercase;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
 }
 
 .button:hover {
-  background-color: rgb(105, 39, 11);
+  background-color: #517979a6;
+  cursor: pointer;
 }
 
 form {
   font-family: "Work Sans", sans-serif;
+  display: inline-block;
 }
 
 .contact-form {
   margin: 5px;
   padding: 5px;
-  width: 350px;
-  font-family: "Work Sans", sans-serif;
+  width: 500px;
+  font-family: "Roboto Mono", monospace;
   text-transform: uppercase;
-  color: rgb(252, 125, 70);
 }
 
 .icon {
@@ -169,4 +172,35 @@ form {
 
 .switch-wrapper > div {
   position: absolute;
+}
+
+.home-img {
+  max-width: 1080px;
+}
+
+.img-about-1 {
+  position: absolute;
+  top: 340px;
+  left: 600px;
+}
+
+.img-about-2 {
+  position: absolute;
+  top: 640px;
+  left: 850px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .home-img {
+    max-width: 900px;
+  }
+
+  .nav-link {
+    font-size: 22px;
+    margin: 5px;
+  }
+}
+
+.contact-container {
+  display: flex;
 }

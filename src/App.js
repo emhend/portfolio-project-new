@@ -1,51 +1,28 @@
 import React, { Component } from "react";
-import { NavLink, HashRouter } from "react-router-dom";
-import Animation from "./Animation";
+import Nav from "./Nav";
 import Footer from "./Footer";
+import "./fonts.css";
+import About from "./About";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import InfiniteScroll from "react-infinite-scroll-component";
 
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <div>
+        <Nav />
         <div className="page-container">
-          <div>
-            <hr />
-            <Animation />
-          </div>
-          <ul className="link-list">
-            <li>
-              <NavLink to="/" className="nav-link" activeClassName="active">
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/about"
-                className="nav-link"
-                activeClassName="active"
-              >
-                About Me
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/portfolio" className="nav-link">
-                Portfolio
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/credentials" className="nav-link">
-                Credentials
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact" className="nav-link">
-                Contact Me
-              </NavLink>
-            </li>
-          </ul>
+          <h1>Emily Henderson</h1>
+          <h2>Front End Developer in Austin, TX</h2>
+          <img
+            src={require("./images/plant.png")}
+            alt="cactus"
+            className="home-img"
+          />
         </div>
         <Footer />
-      </HashRouter>
+      </div>
     );
   }
 }

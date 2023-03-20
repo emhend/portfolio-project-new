@@ -1,36 +1,38 @@
 body {
-  display: flex;
-  text-align: center;
-  font-family: "Work Sans", sans-serif;
-  background: rgb(252, 125, 70);
-  background: radial-gradient(
-    circle,
-    rgba(252, 125, 70, 1) 0%,
-    rgba(251, 230, 221, 1) 86%
-  );
+  font-family: "Roboto Mono", monospace;
+  background: #e7e7db;
   background-size: cover;
-  margin: 0;
-  justify-content: center;
+  margin: 0 auto;
+  max-width: 1080px;
 }
 
 code {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
 }
 
 ul.link-list li {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-  text-decoration: none;
+  display: flex;
 }
 
 ul.link-list {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  background: #e7e7db;
+  width: 1070px;
+  border-bottom: 1px solid #679b9b;
+  border-top: 1px solid #679b9b;
   padding: 10px;
-  margin: 0;
   align-items: center;
+  justify-content: space-around;
 }
 
 ul.link-list li a {
   padding-right: 10px;
-  display: inline-block;
+}
+
+@media only screen and (max-width: 1280px) {
+  ul.link-list {
+    display: table;
+  }
 }
