@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import "./fonts.css";
-import About from "./About";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import InfiniteScroll from "react-infinite-scroll-component";
 
 class App extends Component {
   render() {
